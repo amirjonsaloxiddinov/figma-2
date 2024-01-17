@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400;1,900&family=Rubik:wght@400;500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: var(--fontRubik);
+}
+:root{
+	--fontRubik: 'Rubik', sans-serif;
+	--colorDark:#363940;
+	--colorPrimary:#6E38F7;
+	--colorSecondary:#95A1BB;
+	--colorWhite:#FFF;
+	--colorBlack:#000;
+	--colorRubik: 'Rubik', sans-serif;
+	--linkFont: 500 12px/20px var(--fontRubik);
+	--titleFont: 500 58px/68px var(--fontRubik);
+	--smallDescFont:400 14px/22px var(--fontRubik);
+}
+.container{
+	width: 940px;
+	height: 522px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.container-top{
+	display: flex;
+	justify-content:center;
+}
+.center-h1{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	width: 331px;
+	height: 43px;
+}
+.title{
+	text-align: center;
+	width: 396px;
+	height: 44px;
+	margin-right: 501.5;
+	margin-left: 502.5;
+}
+.list{
+	width: 205px;
+	height: 165px;
+	margin-left: 35px;
+	
+}
+.bottom{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+h4{
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.get{
+	margin-top: 20px;
+	width: 76px;
+	height: 20px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #6E38F7;
+}
